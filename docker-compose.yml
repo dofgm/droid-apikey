@@ -1,11 +1,9 @@
-version: '3'
-
 services:
   droid-apikey:
     image: ghcr.io/dofgm/droid-apikey:latest
     container_name: droid-apikey
     ports:
-      - "8000:8000"
+      - "4693:8000"
     environment:
       - EXPORT_PASSWORD=admin123
     restart: unless-stopped
