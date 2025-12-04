@@ -61,7 +61,7 @@ interface BatchImportResult {
 // ==================== Configuration ====================
 
 const CONFIG = {
-  PORT: 8000,
+  PORT: 4693,
   API_ENDPOINT: 'https://app.factory.ai/api/organization/members/chat-usage',
   USER_AGENT: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
   TIMEZONE_OFFSET_HOURS: 8, // Beijing time
